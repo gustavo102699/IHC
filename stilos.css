@@ -1,0 +1,393 @@
+html,
+* {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+:root {
+    --main-color: #3ED6DA;
+    --secondary-color: #56EBC3;
+    --letter-color: #464646;
+    --colores: #bbbbbb;
+}
+
+.pg {
+    width: 100%;
+    height: 100vh;
+    padding-top: 10vh;
+}
+#pg1 #putamadre
+{
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    color: white;
+    margin: 0px;
+}
+
+ #navbar {
+    background: black;
+    position: fixed;
+    width: 100%;
+    height: 10vh;   
+    margin: 0px;
+    z-index: 100;
+}
+
+ #logo {
+    padding: 25px;
+
+}
+
+#logo h2 {
+    margin-left: 30px;
+    color: var(--main-color);
+}
+
+ #nav {
+    display: inline;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+ #nav a:last-child {
+    border: none;
+}
+
+ #nav a {
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    margin: 0px 10px;
+    text-decoration: none;
+    padding-right: 20px;
+    border-right: var(--main-color) 1.5px solid;
+}
+
+ #nav a:hover {
+    color: var(--main-color);
+}
+
+ #idioma {
+    color: white;
+    padding: 25px 0px;
+    display: flexbox;
+}
+
+#clogo h2 {
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: right;
+
+}
+
+#idioma #clogo {
+    padding: 0px;
+
+}
+
+#idioma small {
+    font-size: 20px;
+    text-align: left;
+
+}
+
+#idioma .comboidioma {
+    width: 120px;
+    height: 30px;
+    padding: 3px;
+    background-color: white;
+    color: black;
+}
+
+#idioma img {
+    text-align: right;
+}
+
+#pg1 #landing {
+    width: 100%;
+    height: 100vh;
+    background: rgba(62, 213, 218, 0.534) fixed no-repeat 50% 50%;
+    background-image: url(assets/img/bg1.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    margin: 0px;    
+}
+
+#landing .info {
+    color: white;
+    width: 40%;
+    margin: 25vh 30%;
+    text-align: center;
+}
+
+#landing .info h1 {
+    font-size: 95px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+#landing .info p {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+#landing button {
+    width: 150px;
+    height: 50px;
+    border: white 2px solid;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 10vh;
+}
+
+#pg2 {
+    background-color: white;
+    height: 100vh;
+}
+#pg2 h2{
+color: var(--letter-color);
+font-family: 'Roboto',sans-serif;
+text-align: center;
+padding-top: 20px;
+}
+#testimonios {
+    height: 80vh;
+    width: 90%;
+    padding: 5vh 0px 0px 0px;
+    margin: 0px 5%;
+    justify-content: center;
+}
+
+#testimonios .testi {
+    background-color: var(--main-color);
+    height: 60vh;
+    margin: 0px 3%;
+    padding: 0px;
+    border: none;
+    box-shadow: rgba(61, 61, 61, 0.863) 0px 2px 15px ;
+    text-align: center;
+}
+
+#testimonios img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 3vh 0px;
+    box-shadow: rgba(92, 92, 92, 0.829) 0px 1px 10px;
+}
+
+#testimonios h4 {
+    color: var(--letter-color);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    margin: 0px;
+}
+
+#testimonios p {
+    font-size: 12px;
+    color: var(--letter-color);
+    font-family: 'Roboto', sans-serif;
+
+}
+#testimonios .dcita{
+    background-color: var(--letter-color);
+    height: 25vh;
+}
+#testimonios .cita{
+    font-size: 13px;
+    text-align: justify;
+    padding: 7vh 15%;
+    font-style: oblique;
+    color: var(--main-color);
+}
+#pg3
+{
+    background-image: url(assets/img/leone-venter-559377-unsplash.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+#pg3 #tituloplanes
+{
+    height: auto;
+    
+}
+#pg3 #tituloplanes h2
+{
+    text-align: left;
+    color:var(--letter-color);
+    font-family: 'Quicksand',sans-serif;
+    font-size: 40px;
+    margin-left: 5%;
+    padding-top: 20px;
+    font-weight: 400;
+    width: 60%;
+}
+#pg3 #cplanes
+{
+    width: 80%;
+    height: 90vh;
+   justify-content: center;
+}
+#pg3 .plan
+{
+    width: 20%;
+    height: 60vh;
+    padding: 0px;
+    margin: 5vh 2.5%;
+    background-color: white;
+    box-shadow: 0px 2px 8px rgba(75, 75, 75, 0.459);
+}
+
+#pg3 h3{
+    text-align: center;
+    font-weight: bold;
+    color: #EEEEEE;
+}
+#pg3 .nombreplan
+{
+    padding: 1.5vh 0px;
+    background-color: rgb(0, 0, 0);
+}
+#pg3 .carac ul 
+{
+    list-style: none;
+}
+#pg3 .carac li
+{
+    margin-bottom: 5vh;
+}
+#pg3 .carac{
+    margin: 6vh 0px;
+    margin-left: 10%;
+}
+
+#pg3 .precio
+{
+    color: black;
+}
+#pg3 .cprecio
+{
+    
+}
+#pg3 #precio1
+{
+    margin-top: 2vh;
+}
+#pg3 #precio1
+{
+    margin-top: 2vh;
+}
+.cprecio h4
+{
+    text-align: center;
+    font-weight: lighter;
+}
+
+#cplanes button
+{
+    width: 60%;
+    height: 5vh;
+    border: none;
+    margin: 0px 20%;
+    
+}
+
+
+
+
+#pg4 {
+    background-color: white;
+}
+#pg4 h2
+{
+    color:var(--letter-color);
+    font-family: 'Quicksand',sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+#pg4 #cvideos
+{
+    justify-content: center;
+}
+#pg4 #titnos
+{
+    color: var(--main-color);
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: bold;
+}
+#pg4 .vid
+{
+    margin: 0px 5%;
+    width: 90%;
+    height: 50vh;
+}
+#pg4 .titvid
+{
+    margin: 0px 5%;
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+    background-color: var(--letter-color);
+    box-shadow: 0px 2px 5px rgba(43, 43, 43, 0.507);
+}
+
+
+
+#pg5
+{
+    background-color: black;
+    margin: 0px;
+}
+#pg5 #contacto1
+{
+    background-color: white;
+    height: 40vh;
+}
+#pg5 #contacto1 img{
+    width: 100%;
+    height: 40vh;
+}
+
+#pg5 #contacto2
+{
+    height: 40vh;
+}
+#pg5 h4, #pg5 p
+{
+    color: white;
+    text-align: left;
+}
+
+#pg5 h4 
+{
+    margin-bottom: 5vh
+}
+#pg5 #cont1
+{
+    padding:0px 5%;
+}
+#pg5 #logo
+{
+    width: 300px;
+    margin-top: 10vh
+}
+#pg5 #contacto2 a{
+    margin-right: 5%;
+    margin-top: 40vh;
+    
+}
